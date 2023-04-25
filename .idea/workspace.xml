@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04e119f5-eedc-460e-a6a0-88d8e307462e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/delivery/controller/DeliveryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/delivery/dto/DeliveryPatchDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/delivery/dto/DeliveryPostDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/delivery/dto/DeliveryResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/delivery/entity/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/delivery/repository/DeliveryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/delivery/service/DeliveryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/enums/DeliveryStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/exception/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/member/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/member/dto/MemberPatchDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/member/dto/MemberPostDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/member/dto/MemberResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/member/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/member/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/member/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ItemOrder/src/main/java/com/example/ItemOrder/order/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/AutoAppconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/MemberApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/OrderApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/discount/DiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/discount/FixDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/discount/RateDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/member/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/member/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/member/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/member/MemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/BeanDefinitionTest/BeanDefinitionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanFind/ApplicationContextBasicFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanFind/ApplicationContextExtendsFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanFind/ApplicationContextInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanFind/ApplicationContextSameBeanFIndTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/discount/RateDiscountPolicyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/member/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/order/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scan/AutoAppConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/singleton/SingleTonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/singleton/SingletonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/singleton/StatefulService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/MemberApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/OrderApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/discount/DiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/discount/FixedDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/discount/RatedDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/member/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/member/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/member/MemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/order/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/order/OrderRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/order/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/test/java/com/example/demo1/member/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/test/java/com/example/demo1/order/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/Dto/OrderSimpleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/Dto/SimpleOrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/InitDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/api/MemberapiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/api/OrderApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/api/OrderSimpleApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/category/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/category/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/categoryItem/CategoryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/categoryItem/CategoryItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/controller/BookForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/controller/MemberForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/delivery/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/delivery/DeliveryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/delivery/DeliveryStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/exception/NotEnoughStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/item/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/item/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/item/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/item/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/item/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/item/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/member/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/order/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/order/OrderSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/order/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/order/query/OrderItemQueryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/order/query/OrderQueryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/order/query/OrderQueryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/orderitem/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/orderitem/OrderItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/css/jumbotron-narrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/templates/fragments/bodyHeader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/templates/items/createItemForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/templates/items/itemlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/templates/items/updateItemForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/templates/members/createMemberForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/templates/members/memberlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/templates/order/orderForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/templates/order/orderlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/test/java/jpabook/jpashop/MemberRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/test/java/jpabook/jpashop/member/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/test/java/jpabook/jpashop/order/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpashop/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/main/java/study/querydsl/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/main/java/study/querydsl/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/main/java/study/querydsl/controller/InitMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/main/java/study/querydsl/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/main/java/study/querydsl/dto/MemberDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/main/java/study/querydsl/dto/MemberSearchCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/main/java/study/querydsl/dto/MemberTeamDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/main/java/study/querydsl/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/main/java/study/querydsl/prac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/main/java/study/querydsl/repository/MemberJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/main/java/study/querydsl/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/main/java/study/querydsl/repository/MemberRepositoryCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/main/java/study/querydsl/repository/MemberRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/test/java/study/querydsl/MemberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/test/java/study/querydsl/queryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/test/java/study/querydsl/repository/MemberJpaRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/test/java/study/querydsl/repository/SpringMemberJpaRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl1/src/main/java/study/querydsl1/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl1/src/main/java/study/querydsl1/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl1/src/test/java/study/querydsl1/MemberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../querydsl1/src/test/java/study/querydsl1/queryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/delivery/Service/DeliveryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/delivery/controller/DeliveryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/delivery/dto/DeliveryPatchDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/delivery/dto/DeliveryPostDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/delivery/dto/DeliveryResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/delivery/entity/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/delivery/repository/DeliveryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/enums/DeliveryStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/exception/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/member/Service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/member/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/member/dto/MemberPatchDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/member/dto/MemberPostDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/member/dto/MemberResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/member/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/member/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/order/Service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/order/dto/OrderPatchDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/order/dto/OrderPostDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/order/dto/OrderResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/order/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/java/com/example/test/order/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/src/main/java/com/example/code/coffee/Coffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code/src/main/java/com/example/code/member/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/coffee/Coffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/coffee/CoffeePostDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/coffee/OrderCoffeeResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/exception/BusinessLogicException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/exception/ExceptionCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/member/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/order/CoffeeRef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/order/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/order/OrderCoffeeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/order/OrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/order/OrderPostDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/order/OrderResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/repository/CoffeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/repository/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/service/CoffeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/java/com/example/code2/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code2/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/main/java/hello/core/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/main/java/hello/core/Memberapp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/main/java/hello/core/OrderApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/main/java/hello/core/discount/DiscountPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/main/java/hello/core/discount/FixDiscountPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/main/java/hello/core/discount/RateDiscountPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/main/java/hello/core/member/Grade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/main/java/hello/core/member/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/main/java/hello/core/member/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/main/java/hello/core/member/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/main/java/hello/core/member/MemberServiceimpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/main/java/hello/core/member/MemoryMemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/main/java/hello/core/order/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/main/java/hello/core/order/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/main/java/hello/core/order/OrderServiceimpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/test/java/hello/core/beanfind/ApplicationContextBasicFindTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/test/java/hello/core/beanfind/ApplicationContextInfoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/test/java/hello/core/beanfind/ApplicationContextSameBeanFindTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/test/java/hello/core/discount/RateDiscountPolicyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/test/java/hello/core/member/memberservicetest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core 2/src/test/java/hello/core/order/OrderServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core1/src/main/java/com/example/core1/OrderApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core1/src/main/java/com/example/core1/discount/fixdiscount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core1/src/main/java/com/example/core1/discount/fixdiscountimpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core1/src/main/java/com/example/core1/member/Grade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core1/src/main/java/com/example/core1/member/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core1/src/main/java/com/example/core1/member/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core1/src/main/java/com/example/core1/member/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core1/src/main/java/com/example/core1/member/MemberServiceimpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core1/src/main/java/com/example/core1/member/MomoryMemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core1/src/main/java/com/example/core1/order/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core1/src/main/java/com/example/core1/order/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core1/src/main/java/com/example/core1/order/OrderServiceimpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/main/java/com/example/core3/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/main/java/com/example/core3/Oderapp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/main/java/com/example/core3/discount/Discount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/main/java/com/example/core3/discount/Fixdiscount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/main/java/com/example/core3/discount/Ratediscount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/main/java/com/example/core3/member/Grade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/main/java/com/example/core3/member/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/main/java/com/example/core3/member/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/main/java/com/example/core3/member/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/main/java/com/example/core3/member/MemberServiceimpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/main/java/com/example/core3/member/MemoryMemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/main/java/com/example/core3/order/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/main/java/com/example/core3/order/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/main/java/com/example/core3/order/OrderServiceimpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/test/java/com/example/core3/member/MemberServiceimplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3 2/src/test/java/com/example/core3/order/OrderServiceimplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3/src/main/java/com/example/core3/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3/src/main/java/com/example/core3/OrderApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3/src/main/java/com/example/core3/discount/Discount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3/src/main/java/com/example/core3/discount/Fixdiscount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3/src/main/java/com/example/core3/discount/Ratediscount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3/src/main/java/com/example/core3/member/Grade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3/src/main/java/com/example/core3/member/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3/src/main/java/com/example/core3/member/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3/src/main/java/com/example/core3/member/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3/src/main/java/com/example/core3/member/MemberServiceimpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3/src/main/java/com/example/core3/member/MemoryMemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3/src/main/java/com/example/core3/order/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3/src/main/java/com/example/core3/order/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core3/src/main/java/com/example/core3/order/OrderServiceimpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deployment/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deployment/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deployment/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deployment/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deployment/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deployment/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit/src/main/java/com/example/doit/api/ArticleApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit/src/main/java/com/example/doit/api/FirstApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit/src/main/java/com/example/doit/controller/Articlecontroller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit/src/main/java/com/example/doit/controller/FirstController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit/src/main/java/com/example/doit/dto/ArticleForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit/src/main/java/com/example/doit/entity/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit/src/main/java/com/example/doit/repository/ArticleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit/src/main/resources/static/hellow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit/src/main/resources/templates/1.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit/src/main/resources/templates/articles/edit.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit/src/main/resources/templates/articles/input.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit/src/main/resources/templates/articles/table.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit/src/main/resources/templates/articles/tableall.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit/src/main/resources/templates/layouts/footer.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit/src/main/resources/templates/layouts/header.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit1/src/main/java/com/example/doit1/controller/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit1/src/main/java/com/example/doit1/dto/ArticleDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit1/src/main/java/com/example/doit1/entity/ArticleEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit1/src/main/java/com/example/doit1/respository/ArticleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit1/src/main/resources/templates/templates/a.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit1/src/main/resources/templates/templates/articles/input.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit1/src/main/resources/templates/templates/articles/show.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit1/src/main/resources/templates/templates/articles/table.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit1/src/main/resources/templates/templates/layouts/footer.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit1/src/main/resources/templates/templates/layouts/header.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/java/com/example/doit2/controller/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/java/com/example/doit2/dto/dto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/java/com/example/doit2/entity/entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/java/com/example/doit2/exception/BusinessLogicException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/java/com/example/doit2/exception/ErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/java/com/example/doit2/exception/Exceptioncode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/java/com/example/doit2/exception/GlobalExceptionAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/java/com/example/doit2/josncontroller/JsonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/java/com/example/doit2/josncontroller/exception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/java/com/example/doit2/repository/ArticleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/java/com/example/doit2/service/ArticleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/resources/templates/1.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/resources/templates/articles/edit.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/resources/templates/articles/input.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/resources/templates/articles/table.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/resources/templates/articles/tableall.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/resources/templates/layouts/footer.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit2/src/main/resources/templates/layouts/header.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/main/java/com/example/doit3/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/main/java/com/example/doit3/dto/Patchdto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/main/java/com/example/doit3/dto/Postdto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/main/java/com/example/doit3/dto/Responsedto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/main/java/com/example/doit3/entity/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/main/java/com/example/doit3/entity/entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/main/java/com/example/doit3/exception/BusinessLogicException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/main/java/com/example/doit3/exception/ErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/main/java/com/example/doit3/exception/ExceptionCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/main/java/com/example/doit3/exception/exception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/main/java/com/example/doit3/mapper/Mapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/main/java/com/example/doit3/repository/CommemtRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/main/java/com/example/doit3/repository/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/main/java/com/example/doit3/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/test/java/com/example/doit3/repository/CommemtRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit3/src/test/java/com/example/doit3/service/MemberServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit4/src/main/java/com/example/doit4/controller/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit4/src/main/java/com/example/doit4/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit4/src/main/java/com/example/doit4/dto/CommentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit4/src/main/java/com/example/doit4/dto/PostDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit4/src/main/java/com/example/doit4/dto/UpdateComment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit4/src/main/java/com/example/doit4/dto/UpdateDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit4/src/main/java/com/example/doit4/entity/comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit4/src/main/java/com/example/doit4/entity/entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit4/src/main/java/com/example/doit4/mapper/ArticleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit4/src/main/java/com/example/doit4/mapper/CommentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit4/src/main/java/com/example/doit4/repository/ArticleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit4/src/main/java/com/example/doit4/repository/CommentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit4/src/main/java/com/example/doit4/service/ArticleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit4/src/main/java/com/example/doit4/service/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit4/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/member/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/member/dto/PatchMemberdto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/member/dto/PostMemberdto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/member/entity/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/member/mapper/MemberMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/member/repository/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/member/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/order/OrderMapper/OrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/order/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/order/dto/OrderCoffeedto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/order/dto/OrderReponsedto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/order/dto/Orderdto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/order/dto/PostOrderdto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/order/dto/SingleResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/order/entity/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/order/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/java/com/example/doit5/order/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit5/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/OrderCoffee/controller/OrderCoffeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/OrderCoffee/dto/OrderCoffeeResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/OrderCoffee/dto/PostOrderCoffeeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/OrderCoffee/entity/OrderCoffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/OrderCoffee/mapper/OrderCoffeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/OrderCoffee/repository/OrderCoffeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/OrderCoffee/service/OrderCoffeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/coffee/controller/CoffeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/coffee/dto/PostCoffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/coffee/dto/ResponseCoffeeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/coffee/entity/Coffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/coffee/mapper/MapperCoffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/coffee/repository/CoffeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/coffee/service/CoffeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/dto/SingleResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/member/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/member/dto/PatchMemberDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/member/dto/PostMemberDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/member/entity/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/member/mapper/MemberMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/member/repository/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/member/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/order/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/order/dto/OrderReponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/order/dto/PostOrderDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/order/entity/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/order/mapper/OrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/order/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit6/src/main/java/com/example/doit6/order/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/coffee/controller/CoffeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/coffee/dto/CoffeeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/coffee/dto/PatchCoffeeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/coffee/dto/PostCoffeeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/coffee/entity/Coffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/coffee/mapper/CoffeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/coffee/repository/CoffeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/coffee/service/CoffeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/dto/SingleResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/member/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/member/dto/MemberResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/member/dto/PatchMemberdto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/member/dto/PostMemberdto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/member/entity/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/member/mapper/MemberMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/member/repository/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/member/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/order/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/order/dto/OrderCoffeeReponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/order/dto/OrderResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/order/dto/PatchOrderDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/order/dto/PostOrderCoffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/order/dto/PostOrderDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/order/entity/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/order/entity/OrderCoffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/order/mapper/OrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/order/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/order/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/ordercoffee/controller/OrderCoffeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/ordercoffee/dto/PatchOrderCoffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/ordercoffee/mapper/OrderCoffeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/ordercoffee/repository/OrderCoffeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit7/src/main/java/com/example/doit7/ordercoffee/service/OrderCoffeeService.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="core" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="core" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2LP6ZZxzm3UqJrUdIWx2RP5SIll" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wondokim/Downloads/core&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hello.core.discount" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.hello.core.OrderApp">
+    <configuration name="hello.core.OrderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.OrderApp" />
+      <module name="core.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/wondokim/Downloads/core [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AutoAppConfigTest.basicScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.scan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.scan" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scan.AutoAppConfigTest" />
+      <option name="METHOD_NAME" value="basicScan" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleTonTest.singletonServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.singleton" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.SingleTonTest" />
+      <option name="METHOD_NAME" value="singletonServiceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleTonTest.springContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.singleton" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.SingleTonTest" />
+      <option name="METHOD_NAME" value="springContainer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.hello.core.OrderApp" />
+      <item itemvalue="Gradle./Users/wondokim/Downloads/core [dependencies]" />
+      <item itemvalue="JUnit.AutoAppConfigTest.basicScan" />
+      <item itemvalue="JUnit.SingleTonTest.singletonServiceTest" />
+      <item itemvalue="JUnit.SingleTonTest.springContainer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.hello.core.OrderApp" />
+        <item itemvalue="Gradle./Users/wondokim/Downloads/core [dependencies]" />
+        <item itemvalue="JUnit.AutoAppConfigTest.basicScan" />
+        <item itemvalue="JUnit.SingleTonTest.springContainer" />
+        <item itemvalue="JUnit.SingleTonTest.singletonServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04e119f5-eedc-460e-a6a0-88d8e307462e" name="Changes" comment="" />
+      <created>1675760427961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675760427961</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
